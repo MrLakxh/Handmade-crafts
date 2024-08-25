@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handmade Products</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+     <!-- Header -->
+     <header class="bg-white shadow-xl">
+        <div class="container mx-auto px-4 py-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold">Handmade Crafts & Arts</h1>
+
+
+            <!-- Search Bar -->
+            <div class="my-4 hidden lg:block md:my-0 w-full md:w-auto">
+                <div class="flex justify-center items-center">
+                    <input type="text" placeholder="Search for handmade crafts..."
+                        class="border border-gray-300 rounded-l-lg py-2 px-4 focus:outline-none focus:ring-2 focus:ring-gray-500 w-full md:w-96">
+                    <button
+                        class="bg-gray-700 text-white py-2 px-4 rounded-r-lg hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-gray-500">
+                        Search
+                    </button>
+                </div>
+            </div>
+            <nav class="hidden lg:flex ">
+                <a href="index.html" class="text-gray-700 hover:shadow-xl hover:text-xl px-3 flex items-center  "> <img
+                        class="w-5 h-5 " src="https://img.icons8.com/?size=80&id=64975&format=png" alt=""
+                        srcset="">Home</a>
+
+                <a href="products.html" class="text-gray-700 hover:shadow-xl hover:text-xl px-3 flex items-center  ">
+                    <img class="w-5 h-5 " src="https://img.icons8.com/?size=80&id=107714&format=png" alt=""
+                        srcset="">Products</a>
+
+                <a href="cart.html" class="text-gray-700 hover:shadow-xl hover:text-xl px-3 flex items-center ">
+                    <img class="w-5 h-5 " src="https://img.icons8.com/?size=50&id=Ij3mpBYHt6Xp&format=png" alt=""
+                        srcset="">Cart</a>
+
+                <a href="about.html" class="text-gray-700 hover:shadow-xl hover:text-xl px-3 flex items-center "> <img
+                        class="w-5 h-5 " src="https://img.icons8.com/?size=80&id=102292&format=png" alt=""
+                        srcset="">About Us</a>
+
+                <a href="contact.html" class="text-gray-700 hover:shadow-xl hover:text-xl px-3 flex items-center "> <img
+                        class="w-5 h-5 " src="https://img.icons8.com/?size=80&id=42357&format=png" alt=""
+                        srcset="">Contact Us</a>
+            </nav>
+            <!-- Menu Bar (Hamburger Icon) -->
+            <div class="text-2xl lg:hidden cursor-pointer" id="menu-button">&#8801;</div>
+        </div>
+
+        <!-- Dropdown Menu -->
+        <div id="dropdown-menu" class="items-center shadow-2xl shadow-slate-800 bg-slate-400 rounded-md md:hidden py-2">
+            <a href="index.html" class="flex px-4 py-2 hover:bg-gray-500 hover:text-white hover:shadow-xl"><img
+                    class="w-5 h-5 mr-2" src="https://img.icons8.com/?size=80&id=64975&format=png" alt="" srcset="">
+                Home</a>
+
+            <a href="products.html" class="flex px-4 py-2 hover:bg-gray-500 hover:text-white hover:shadow-xl"><img
+                    class="w-5 h-5 mr-2" src="https://img.icons8.com/?size=80&id=107714&format=png" alt="" srcset="">
+                Products</a>
+
+            <a href="cart.html" class="flex px-4 py-2 hover:bg-gray-500 hover:text-white hover:shadow-xl "><img
+                    class="w-5 h-5 mr-2" src="https://img.icons8.com/?size=50&id=Ij3mpBYHt6Xp&format=png" alt=""
+                    srcset=""> Cart</a>
+
+            <a href="about.html" class="flex px-4 py-2 hover:bg-gray-500 hover:text-white hover:shadow-xl"><img
+                    class="w-5 h-5 mr-2" src="https://img.icons8.com/?size=80&id=102292&format=png" alt="" srcset="">
+                About Us</a>
+
+            <a href="contact.html" class="flex px-4 py-2 hover:bg-gray-500 hover:text-white hover:shadow-xl"><img
+                    class="w-5 h-5 mr-2" src="https://img.icons8.com/?size=80&id=42357&format=png" alt="" srcset="">
+                Contact Us</a>
+        </div>
+        <!-- End of Dropdown Menu -->
+    </header>
+    <!-- End of Header -->
+    <!-- product feature -->
+    <section class="container mx-auto px-4 py-12">
+        <h2 class="text-3xl font-bold mb-8 text-center">Feature Products</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <!-- product card  -->
+            <div
+                class="text-white shadow-lg rounded-lg overflow-hidden transform transition-transform duration-300 hover:-translate-y-2">
+                <img src="https://img.freepik.com/free-photo/crochet-plush-still-life_23-2151044883.jpg?w=996&t=st=1724532809~exp=1724533409~hmac=613255b1b2970d803e121add51da9d099c06594769db925289a010ab342b2514"
+                    alt="" srcset="" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl text-gray-700 font-semibold font-sans mb-2">Homemade Product</h3>
+                    <p class="text-gray-700 mb-4">A beautifull product created with care.</p>
+                    <a class="text-yellow-500 hover:text-yellow-600 font-bold" href="details.html">View details →</a>
+                </div>
+            </div>
+            <!-- product card  -->
+            <div
+                class="text-white shadow-lg rounded-lg overflow-hidden transform transition-transform duration-300 hover:-translate-y-2">
+                <img src="https://img.freepik.com/free-photo/crochet-plush-still-life_23-2151044883.jpg?w=996&t=st=1724532809~exp=1724533409~hmac=613255b1b2970d803e121add51da9d099c06594769db925289a010ab342b2514"
+                    alt="" srcset="" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl text-gray-700 font-semibold font-sans mb-2">Homemade Product</h3>
+                    <p class="text-gray-700 mb-4">A beautifull product created with care.</p>
+                    <a class="text-yellow-500 hover:text-yellow-600 font-bold" href="details.html">View details →</a>
+                </div>
+            </div>
+            <!-- product card  -->
+            <div
+                class="text-white shadow-lg rounded-lg overflow-hidden transform transition-transform duration-300 hover:-translate-y-2">
+                <img src="https://img.freepik.com/free-photo/crochet-plush-still-life_23-2151044883.jpg?w=996&t=st=1724532809~exp=1724533409~hmac=613255b1b2970d803e121add51da9d099c06594769db925289a010ab342b2514"
+                    alt="" srcset="" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl text-gray-700 font-semibold font-sans mb-2">Homemade Product</h3>
+                    <p class="text-gray-700 mb-4">A beautifull product created with care.</p>
+                    <a class="text-yellow-500 hover:text-yellow-600 font-bold" href="details.html">View details →</a>
+                </div>
+            </div>
+            <!-- product card  -->
+            <div
+                class="text-white shadow-lg rounded-lg overflow-hidden transform transition-transform duration-300 hover:-translate-y-2">
+                <img src="https://img.freepik.com/free-photo/crochet-plush-still-life_23-2151044883.jpg?w=996&t=st=1724532809~exp=1724533409~hmac=613255b1b2970d803e121add51da9d099c06594769db925289a010ab342b2514"
+                    alt="" srcset="" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl text-gray-700 font-semibold font-sans mb-2">Homemade Product</h3>
+                    <p class="text-gray-700 mb-4">A beautifull product created with care.</p>
+                    <a class="text-yellow-500 hover:text-yellow-600 font-bold" href="details.html">View details →</a>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <!-- product feature -->
+    <section class="container mx-auto px-4 py-12">
+        <h2 class="text-3xl font-bold mb-8 text-center">Feature Products</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <!-- product card  -->
+            <div
+                class="text-white shadow-lg rounded-lg overflow-hidden transform transition-transform duration-300 hover:-translate-y-2">
+                <img src="https://img.freepik.com/free-photo/crochet-plush-still-life_23-2151044883.jpg?w=996&t=st=1724532809~exp=1724533409~hmac=613255b1b2970d803e121add51da9d099c06594769db925289a010ab342b2514"
+                    alt="" srcset="" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl text-gray-700 font-semibold font-sans mb-2">Homemade Product</h3>
+                    <p class="text-gray-700 mb-4">A beautifull product created with care.</p>
+                    <a class="text-yellow-500 hover:text-yellow-600 font-bold" href="details.html">View details →</a>
+                </div>
+            </div>
+            <!-- product card  -->
+            <div
+                class="text-white shadow-lg rounded-lg overflow-hidden transform transition-transform duration-300 hover:-translate-y-2">
+                <img src="https://img.freepik.com/free-photo/crochet-plush-still-life_23-2151044883.jpg?w=996&t=st=1724532809~exp=1724533409~hmac=613255b1b2970d803e121add51da9d099c06594769db925289a010ab342b2514"
+                    alt="" srcset="" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl text-gray-700 font-semibold font-sans mb-2">Homemade Product</h3>
+                    <p class="text-gray-700 mb-4">A beautifull product created with care.</p>
+                    <a class="text-yellow-500 hover:text-yellow-600 font-bold" href="details.html">View details →</a>
+                </div>
+            </div>
+            <!-- product card  -->
+            <div
+                class="text-white shadow-lg rounded-lg overflow-hidden transform transition-transform duration-300 hover:-translate-y-2">
+                <img src="https://img.freepik.com/free-photo/crochet-plush-still-life_23-2151044883.jpg?w=996&t=st=1724532809~exp=1724533409~hmac=613255b1b2970d803e121add51da9d099c06594769db925289a010ab342b2514"
+                    alt="" srcset="" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl text-gray-700 font-semibold font-sans mb-2">Homemade Product</h3>
+                    <p class="text-gray-700 mb-4">A beautifull product created with care.</p>
+                    <a class="text-yellow-500 hover:text-yellow-600 font-bold" href="details.html">View details →</a>
+                </div>
+            </div>
+            <!-- product card  -->
+            <div
+                class="text-white shadow-lg rounded-lg overflow-hidden transform transition-transform duration-300 hover:-translate-y-2">
+                <img src="https://img.freepik.com/free-photo/crochet-plush-still-life_23-2151044883.jpg?w=996&t=st=1724532809~exp=1724533409~hmac=613255b1b2970d803e121add51da9d099c06594769db925289a010ab342b2514"
+                    alt="" srcset="" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl text-gray-700 font-semibold font-sans mb-2">Homemade Product</h3>
+                    <p class="text-gray-700 mb-4">A beautifull product created with care.</p>
+                    <a class="text-yellow-500 hover:text-yellow-600 font-bold" href="details.html">View details →</a>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <!-- product feature -->
+    <section class="container mx-auto px-4 py-12">
+        <h2 class="text-3xl font-bold mb-8 text-center">Feature Products</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <!-- product card  -->
+            <div
+                class="text-white shadow-lg rounded-lg overflow-hidden transform transition-transform duration-300 hover:-translate-y-2">
+                <img src="https://img.freepik.com/free-photo/crochet-plush-still-life_23-2151044883.jpg?w=996&t=st=1724532809~exp=1724533409~hmac=613255b1b2970d803e121add51da9d099c06594769db925289a010ab342b2514"
+                    alt="" srcset="" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl text-gray-700 font-semibold font-sans mb-2">Homemade Product</h3>
+                    <p class="text-gray-700 mb-4">A beautifull product created with care.</p>
+                    <a class="text-yellow-500 hover:text-yellow-600 font-bold" href="details.html">View details →</a>
+                </div>
+            </div>
+            <!-- product card  -->
+            <div
+                class="text-white shadow-lg rounded-lg overflow-hidden transform transition-transform duration-300 hover:-translate-y-2">
+                <img src="https://img.freepik.com/free-photo/crochet-plush-still-life_23-2151044883.jpg?w=996&t=st=1724532809~exp=1724533409~hmac=613255b1b2970d803e121add51da9d099c06594769db925289a010ab342b2514"
+                    alt="" srcset="" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl text-gray-700 font-semibold font-sans mb-2">Homemade Product</h3>
+                    <p class="text-gray-700 mb-4">A beautifull product created with care.</p>
+                    <a class="text-yellow-500 hover:text-yellow-600 font-bold" href="details.html">View details →</a>
+                </div>
+            </div>
+            <!-- product card  -->
+            <div
+                class="text-white shadow-lg rounded-lg overflow-hidden transform transition-transform duration-300 hover:-translate-y-2">
+                <img src="https://img.freepik.com/free-photo/crochet-plush-still-life_23-2151044883.jpg?w=996&t=st=1724532809~exp=1724533409~hmac=613255b1b2970d803e121add51da9d099c06594769db925289a010ab342b2514"
+                    alt="" srcset="" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl text-gray-700 font-semibold font-sans mb-2">Homemade Product</h3>
+                    <p class="text-gray-700 mb-4">A beautifull product created with care.</p>
+                    <a class="text-yellow-500 hover:text-yellow-600 font-bold" href="details.html">View details →</a>
+                </div>
+            </div>
+            <!-- product card  -->
+            <div
+                class="text-white shadow-lg rounded-lg overflow-hidden transform transition-transform duration-300 hover:-translate-y-2">
+                <img src="https://img.freepik.com/free-photo/crochet-plush-still-life_23-2151044883.jpg?w=996&t=st=1724532809~exp=1724533409~hmac=613255b1b2970d803e121add51da9d099c06594769db925289a010ab342b2514"
+                    alt="" srcset="" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl text-gray-700 font-semibold font-sans mb-2">Homemade Product</h3>
+                    <p class="text-gray-700 mb-4">A beautifull product created with care.</p>
+                    <a class="text-yellow-500 hover:text-yellow-600 font-bold" href="details.html">View details →</a>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <!-- product feature -->
+    <section class="container mx-auto px-4 py-12">
+        <h2 class="text-3xl font-bold mb-8 text-center">Feature Products</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <!-- product card  -->
+            <div
+                class="text-white shadow-lg rounded-lg overflow-hidden transform transition-transform duration-300 hover:-translate-y-2">
+                <img src="https://img.freepik.com/free-photo/crochet-plush-still-life_23-2151044883.jpg?w=996&t=st=1724532809~exp=1724533409~hmac=613255b1b2970d803e121add51da9d099c06594769db925289a010ab342b2514"
+                    alt="" srcset="" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl text-gray-700 font-semibold font-sans mb-2">Homemade Product</h3>
+                    <p class="text-gray-700 mb-4">A beautifull product created with care.</p>
+                    <a class="text-yellow-500 hover:text-yellow-600 font-bold" href="details.html">View details →</a>
+                </div>
+            </div>
+            <!-- product card  -->
+            <div
+                class="text-white shadow-lg rounded-lg overflow-hidden transform transition-transform duration-300 hover:-translate-y-2">
+                <img src="https://img.freepik.com/free-photo/crochet-plush-still-life_23-2151044883.jpg?w=996&t=st=1724532809~exp=1724533409~hmac=613255b1b2970d803e121add51da9d099c06594769db925289a010ab342b2514"
+                    alt="" srcset="" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl text-gray-700 font-semibold font-sans mb-2">Homemade Product</h3>
+                    <p class="text-gray-700 mb-4">A beautifull product created with care.</p>
+                    <a class="text-yellow-500 hover:text-yellow-600 font-bold" href="details.html">View details →</a>
+                </div>
+            </div>
+            <!-- product card  -->
+            <div
+                class="text-white shadow-lg rounded-lg overflow-hidden transform transition-transform duration-300 hover:-translate-y-2">
+                <img src="https://img.freepik.com/free-photo/crochet-plush-still-life_23-2151044883.jpg?w=996&t=st=1724532809~exp=1724533409~hmac=613255b1b2970d803e121add51da9d099c06594769db925289a010ab342b2514"
+                    alt="" srcset="" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl text-gray-700 font-semibold font-sans mb-2">Homemade Product</h3>
+                    <p class="text-gray-700 mb-4">A beautifull product created with care.</p>
+                    <a class="text-yellow-500 hover:text-yellow-600 font-bold" href="details.html">View details →</a>
+                </div>
+            </div>
+            <!-- product card  -->
+            <div
+                class="text-white shadow-lg rounded-lg overflow-hidden transform transition-transform duration-300 hover:-translate-y-2">
+                <img src="https://img.freepik.com/free-photo/crochet-plush-still-life_23-2151044883.jpg?w=996&t=st=1724532809~exp=1724533409~hmac=613255b1b2970d803e121add51da9d099c06594769db925289a010ab342b2514"
+                    alt="" srcset="" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl text-gray-700 font-semibold font-sans mb-2">Homemade Product</h3>
+                    <p class="text-gray-700 mb-4">A beautifull product created with care.</p>
+                    <a class="text-yellow-500 hover:text-yellow-600 font-bold" href="details.html">View details →</a>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <!-- footer section  -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4 text-center flex justify-between">
+            <p>&copy;2024 Handmade Crafts&Arts. All rights reserved.</p>
+            <p>Developed by @Lakxh</p>
+        </div>
+
+    </footer>
+
+    <script>
+        const menuButton = document.getElementById('menu-button');
+        const dropdownMenu = document.getElementById('dropdown-menu');
+
+        menuButton.addEventListener('click', () => {
+            dropdownMenu.classList.toggle('hidden');
+        });
+    </script>
+
+</body>
+
+</html>
